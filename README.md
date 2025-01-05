@@ -34,6 +34,15 @@
 [![Certified by University of California, Berkeley](https://img.shields.io/badge/Certified%20by%20UC%20Berkeley-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
 [![Certified by University of Southern California](https://img.shields.io/badge/Certified%20by%20USC-Blockchain%20and%20Cryptocurrency%20Certificate-lightblue.svg)](https://online.usc.edu/)
 
+[![World Bank Group Participation](https://img.shields.io/badge/WBG-Participation-blue.svg)](https://www.worldbank.org/en/meetings)
+[![IMF Annual Meetings](https://img.shields.io/badge/IMF-Annual_Meetings-green.svg)](https://www.imf.org/en/meetings)
+[![International Development Association (IDA)](https://img.shields.io/badge/IDA-Development_Partnership-purple.svg)](https://ida.worldbank.org/)
+[![International Finance Corporation (IFC)](https://img.shields.io/badge/IFC-Investment_Arm-red.svg)](https://www.ifc.org/)
+[![Global Environment Facility (GEF)](https://img.shields.io/badge/GEF-Environmental_Finance-yellow.svg)](https://www.thegef.org/)
+[![Multilateral Investment Guarantee Agency (MIGA)](https://img.shields.io/badge/MIGA-Investment_Insurance-lightgreen.svg)](https://www.miga.org/)
+[![World Bank Institute (WBI)](https://img.shields.io/badge/WBI-Capacity_Building-lightblue.svg)](https://www.worldbank.org/en/wbi)
+[![World Bank Gender Equality](https://img.shields.io/badge/WBG-Gender_Equality-pink.svg)](https://www.worldbank.org/en/topic/gender)
+
 [![CFA Certified](https://img.shields.io/badge/CFA-Certified-blue.svg)](https://www.cfainstitute.org/en/programs/cfa)
 [![CPA Certified](https://img.shields.io/badge/CPA-Certified-green.svg)](https://www.aicpa.org/)
 [![CMA Certified](https://img.shields.io/badge/CMA-Certified-orange.svg)](https://www.imanet.org/cma-certification)
