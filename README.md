@@ -1,4 +1,5 @@
 [![Certified by Stanford University](https://img.shields.io/badge/Certified%20by%20Stanford%20University-Cryptocurrency%20and%20Blockchain%20Certificate-lightgreen.svg)](https://online.stanford.edu/courses/sohs-ystanford-cryptocurrency-and-blockchain)
+[![Certified by Eliza Labs](https://img.shields.io/badge/Certified%20by%20Eliza%20Labs-Advanced%20AI%20and%20Machine%20Learning-lightblue.svg)](https://www.elizalabs.com/certification)
 [![Certified by Pi Network](https://img.shields.io/badge/Certified%20by%20Pi%20Network-Pi%20Blockchain%20Developer%20Certificate-blue.svg)](https://minepi.com/)
 [![Certified by ANU Blockchain](https://img.shields.io/badge/Certified%20by%20ANU%20Blockchain-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.anu.edu.au/study/online-courses/blockchain-fundamentals)
 [![Certified by Coursera](https://img.shields.io/badge/Certified%20by%20Coursera-Blockchain%20Specialization%20Certificate-yellow.svg)](https://www.coursera.org/specializations/blockchain)
