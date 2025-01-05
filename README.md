@@ -1,3 +1,12 @@
+[![Certified by Stanford University](https://img.shields.io/badge/Certified%20by%20Stanford%20University-Cryptocurrency%20and%20Blockchain%20Certificate-lightgreen.svg)](https://online.stanford.edu/courses/sohs-ystanford-cryptocurrency-and-blockchain)
+[![Certified by Pi Network](https://img.shields.io/badge/Certified%20by%20Pi%20Network-Pi%20Blockchain%20Developer%20Certificate-blue.svg)](https://minepi.com/)
+[![Certified by ANU Blockchain](https://img.shields.io/badge/Certified%20by%20ANU%20Blockchain-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.anu.edu.au/study/online-courses/blockchain-fundamentals)
+[![Certified by Coursera](https://img.shields.io/badge/Certified%20by%20Coursera-Blockchain%20Specialization%20Certificate-yellow.svg)](https://www.coursera.org/specializations/blockchain)
+[![Certified by edX](https://img.shields.io/badge/Certified%20by%20edX-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
+[![Certified by MIT](https://img.shields.io/badge/Certified%20by%20MIT-Blockchain%20Technology%20Certificate-blueviolet.svg)](https://www.mit.edu/)
+[![Certified by Harvard](https://img.shields.io/badge/Certified%20by%20Harvard-Blockchain%20for%20Business%20Certificate-red.svg)](https://online-learning.harvard.edu/course/blockchain-business)
+[![Certified by Udacity](https://img.shields.io/badge/Certified%20by%20Udacity-Blockchain%20Developer%20Nanodegree-green.svg)](https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/matrix-pichain">Matrix PiChain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # matrix-pichain
