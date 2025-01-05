@@ -1,2 +1,2 @@
 # matrix-pichain
-matrix-pichain is the official repository for the Matrix PiChain project, a revolutionary stablecoin ecosystem designed to transform global finance. 
+matrix-pichain is the official repository for the Matrix PiChain project, a revolutionary stablecoin ecosystem designed to transform global finance. This repository contains the core codebase, smart contracts, and documentation for Pi Coin, which operates on a decentralized governance model and utilizes a Proof of Stake (PoS) consensus mechanism. Join us in building a secure, efficient, and community-driven financial platform that bridges traditional finance and the cryptocurrency world.
