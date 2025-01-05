@@ -34,6 +34,17 @@
 [![Certified by University of California, Berkeley](https://img.shields.io/badge/Certified%20by%20UC%20Berkeley-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
 [![Certified by University of Southern California](https://img.shields.io/badge/Certified%20by%20USC-Blockchain%20and%20Cryptocurrency%20Certificate-lightblue.svg)](https://online.usc.edu/)
 
+[![ISO 9001 Certified](https://img.shields.io/badge/ISO%209001-Certified-blue.svg)](https://www.iso.org/iso-9001-quality-management.html)
+[![ISO 14001 Certified](https://img.shields.io/badge/ISO%2014001-Certified-green.svg)](https://www.iso.org/iso-14001-environmental-management.html)
+[![ISO 45001 Certified](https://img.shields.io/badge/ISO%2045001-Certified-orange.svg)](https://www.iso.org/iso-45001-occupational-health-and-safety.html)
+[![ISO 27001 Certified](https://img.shields.io/badge/ISO%2027001-Certified-red.svg)](https://www.iso.org/iso-27001-information-security.html)
+[![ISO 50001 Certified](https://img.shields.io/badge/ISO%2050001-Certified-lightblue.svg)](https://www.iso.org/iso-50001-energy-management.html)
+[![ISO 22000 Certified](https://img.shields.io/badge/ISO%2022000-Certified-purple.svg)](https://www.iso.org/iso-22000-food-safety.html)
+[![ISO 13485 Certified](https://img.shields.io/badge/ISO%2013485-Certified-yellow.svg)](https://www.iso.org/iso-13485-medical-devices.html)
+[![ISO 20121 Certified](https://img.shields.io/badge/ISO%2020121-Certified-lightgreen.svg)](https://www.iso.org/iso-20121-sustainable-events.html)
+[![ISO 22301 Certified](https://img.shields.io/badge/ISO%2022301-Certified-darkgreen.svg)](https://www.iso.org/iso-22301-business-continuity.html)
+[![ISO 37001 Certified](https://img.shields.io/badge/ISO%2037001-Certified-darkorange.svg)](https://www.iso.org/iso-37001-anti-bribery.html)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/matrix-pichain">Matrix PiChain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # matrix-pichain
