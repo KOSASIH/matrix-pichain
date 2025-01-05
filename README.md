@@ -42,7 +42,6 @@
 [![Multilateral Investment Guarantee Agency (MIGA)](https://img.shields.io/badge/MIGA-Investment_Insurance-lightgreen.svg)](https://www.miga.org/)
 [![World Bank Institute (WBI)](https://img.shields.io/badge/WBI-Capacity_Building-lightblue.svg)](https://www.worldbank.org/en/wbi)
 [![World Bank Gender Equality](https://img.shields.io/badge/WBG-Gender_Equality-pink.svg)](https://www.worldbank.org/en/topic/gender)
-[![Women Entrepreneurs Finance Initiative](https://img.shields.io/badge/We-Fi-Women%20Entrepreneurs%20Finance%20Initiative-orange.svg)](https://we-fi.org/)
 [![IMF Capacity Development](https://img.shields.io/badge/IMF-Capacity%20Development%20Training-darkblue.svg)](https://www.imf.org/en/capacity-development)
 [![IMF Training Programs](https://img.shields.io/badge/IMF-Training%20Programs-lightgreen.svg)](https://www.imf.org/en/capacity-development)
 [![Women Empowerment Initiative](https://img.shields.io/badge/Women%20Empowerment%20Initiative-Global%20Support-pink.svg)](https://we-fi.org/)
