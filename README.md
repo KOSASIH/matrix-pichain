@@ -34,6 +34,17 @@
 [![Certified by University of California, Berkeley](https://img.shields.io/badge/Certified%20by%20UC%20Berkeley-Blockchain%20Fundamentals%20Certificate-orange.svg)](https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals)
 [![Certified by University of Southern California](https://img.shields.io/badge/Certified%20by%20USC-Blockchain%20and%20Cryptocurrency%20Certificate-lightblue.svg)](https://online.usc.edu/)
 
+[![CFA Certified](https://img.shields.io/badge/CFA-Certified-blue.svg)](https://www.cfainstitute.org/en/programs/cfa)
+[![CPA Certified](https://img.shields.io/badge/CPA-Certified-green.svg)](https://www.aicpa.org/)
+[![CMA Certified](https://img.shields.io/badge/CMA-Certified-orange.svg)](https://www.imanet.org/cma-certification)
+[![FRM Certified](https://img.shields.io/badge/FRM-Certified-red.svg)](https://www.garp.org/frm)
+[![CAIA Certified](https://img.shields.io/badge/CAIA-Certified-lightblue.svg)](https://caia.org/)
+[![CIMA Certified](https://img.shields.io/badge/CIMA-Certified-purple.svg)](https://www.cimaglobal.com/)
+[![CFA Institute Investment Foundations](https://img.shields.io/badge/Investment%20Foundations-Certified-yellow.svg)](https://www.cfainstitute.org/en/programs/investment-foundations)
+[![ACCA Certified](https://img.shields.io/badge/ACCA-Certified-lightgreen.svg)](https://www.accaglobal.com/)
+[![AICPA Certified](https://img.shields.io/badge/AICPA-Certified-darkgreen.svg)](https://www.aicpa.org/)
+[![CFA Society Certified](https://img.shields.io/badge/CFA%20Society-Certified-darkorange.svg)](https://www.cfainstitute.org/en/societies)
+
 [![ISO 9001 Certified](https://img.shields.io/badge/ISO%209001-Certified-blue.svg)](https://www.iso.org/iso-9001-quality-management.html)
 [![ISO 14001 Certified](https://img.shields.io/badge/ISO%2014001-Certified-green.svg)](https://www.iso.org/iso-14001-environmental-management.html)
 [![ISO 45001 Certified](https://img.shields.io/badge/ISO%2045001-Certified-orange.svg)](https://www.iso.org/iso-45001-occupational-health-and-safety.html)
