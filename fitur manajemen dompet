@@ -1,0 +1,197 @@
+
+matrix-pichain-wallet/
+├── src/
+│   ├── controllers/
+│   │   └── walletController.js
+│   ├── models/
+│   │   └── walletModel.js
+│   ├── routes/
+│   │   └── walletRoutes.js
+│   ├── services/
+│   │   └── walletService.js
+│   ├── utils/
+│   │   └── cryptoUtils.js
+│   ├── app.js
+├── package.json
+└── README.md
+
+
+---
+
+package.json
+
+Dependencies utama:
+
+{
+  "name": "matrix-pichain-wallet",
+  "version": "1.0.0",
+  "description": "Wallet management module for Matrix PiChain",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
+
+
+---
+
+app.js
+
+Pusat konfigurasi server.
+
+const express = require("express");
+const mongoose = require("mongoose");
+const walletRoutes = require("./routes/walletRoutes");
+
+const app = express();
+const PORT = 3000;
+
+app.use(express.json());
+app.use("/api/wallet", walletRoutes);
+
+mongoose
+  .connect("mongodb://localhost:27017/matrix-pichain", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("MongoDB connected"))
+  .catch((err) => console.error(err));
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
+
+---
+
+models/walletModel.js
+
+Model database untuk dompet.
+
+const mongoose = require("mongoose");
+
+const walletSchema = new mongoose.Schema({
+  userId: { type: String, required: true },
+  address: { type: String, unique: true, required: true },
+  privateKey: { type: String, required: true },
+  balance: { type: Number, default: 0 },
+  createdAt: { type: Date, default: Date.now },
+});
+
+module.exports = mongoose.model("Wallet", walletSchema);
+
+
+---
+
+controllers/walletController.js
+
+Logika utama untuk manajemen dompet.
+
+const Wallet = require("../models/walletModel");
+const { generateKeys, encryptPrivateKey } = require("../utils/cryptoUtils");
+
+exports.createWallet = async (req, res) => {
+  try {
+    const { userId } = req.body;
+    const { address, privateKey } = generateKeys();
+
+    const encryptedPrivateKey = encryptPrivateKey(privateKey);
+
+    const wallet = new Wallet({
+      userId,
+      address,
+      privateKey: encryptedPrivateKey,
+    });
+
+    await wallet.save();
+
+    res.status(201).json({
+      message: "Wallet created successfully",
+      wallet: { address, balance: wallet.balance },
+    });
+  } catch (err) {
+    res.status(500).json({ message: "Error creating wallet", error: err.message });
+  }
+};
+
+exports.getWallet = async (req, res) => {
+  try {
+    const { address } = req.params;
+    const wallet = await Wallet.findOne({ address });
+
+    if (!wallet) return res.status(404).json({ message: "Wallet not found" });
+
+    res.status(200).json(wallet);
+  } catch (err) {
+    res.status(500).json({ message: "Error fetching wallet", error: err.message });
+  }
+};
+
+
+---
+
+routes/walletRoutes.js
+
+Endpoint API.
+
+const express = require("express");
+const walletController = require("../controllers/walletController");
+
+const router = express.Router();
+
+router.post("/create", walletController.createWallet);
+router.get("/:address", walletController.getWallet);
+
+module.exports = router;
+
+
+---
+
+utils/cryptoUtils.js
+
+Fungsi kriptografi.
+
+const crypto = require("crypto");
+const bcrypt = require("bcrypt");
+const { v4: uuidv4 } = require("uuid");
+
+exports.generateKeys = () => {
+  const address = uuidv4();
+  const privateKey = crypto.randomBytes(32).toString("hex");
+  return { address, privateKey };
+};
+
+exports.encryptPrivateKey = (privateKey) => {
+  const salt = bcrypt.genSaltSync(10);
+  return bcrypt.hashSync(privateKey, salt);
+};
+
+
+---
+
+Jalankan Proyek
+
+1. Instal dependensi:
+
+npm install
+
+
+2. Jalankan server:
+
+npm run dev
+
+
+
+
+---
