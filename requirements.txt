@@ -1,5 +1,5 @@
 Flask==2.0.1
-requests==2.26.0
+requests==2.32.2
 web3==5.24.0
 pycryptodome==3.10.1
 pytest==6.2.5
