@@ -8,7 +8,7 @@ setup(
     description='A high-tech cryptocurrency platform based on blockchain technology.',
     packages=find_packages(),
     install_requires=[
-        'Flask==2.0.1',
+        'Flask==3.1.3',
         'requests==2.26.0',
         'web3==5.24.0',
         'pycryptodome==3.10.1',
