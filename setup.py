@@ -12,7 +12,7 @@ setup(
         'requests==2.26.0',
         'web3==5.24.0',
         'pycryptodome==3.10.1',
-        'pytest==6.2.5',
+        'pytest==9.0.3',
         'pylint==2.11.1',
         'sqlalchemy==1.4.22',
     ],
