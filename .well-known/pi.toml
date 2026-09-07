@@ -1,0 +1,10 @@
+[[CURRENCIES]]
+code="MATRIX"
+issuer="GANTI_DENGAN_PUBLIC_KEY_ISSUER" 
+display_decimals=7
+name="MATRIX PiChain"
+desc="The most super advanced smart stablecoin for PiChain"
+image="https://raw.githubusercontent.com/KOSASIH/matrix-pichain/main/logo.png"
+anchor="KOSASIH"
+anchor_asset="MATRIX"
+anchor_asset_type="smart_stablecoin"
